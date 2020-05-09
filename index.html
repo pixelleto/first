@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            #box {
+                text-align: center;
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box">
+        </div>
+
+        <script>
+            function LETO(r, g, b) {
+                document.getElementById('box').style.color = `rgb(${r}, ${g}, ${b})`;
+            }
+        </script>
+
+        <script>
+            LETO(20, 3, 7);
+        </script>
+    </body>
+</html>
